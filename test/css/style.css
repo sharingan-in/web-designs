@@ -1,0 +1,89 @@
+body{
+	font-family: Tempus Sans ITC;
+	background:#555;
+	color: white;
+
+}
+#home{background: transparent;
+border-radius: 50px;
+	border: 3px solid white;
+	color: white;
+	font-weight: bolder;
+
+	overflow: hidden;
+	padding: 10px 50px;
+	-webkit-transition:background .7s;
+	-webkit-transform:all 5s;
+
+}
+#home:before{
+	content: "<< ";
+}
+a:hover{
+	text-decoration: none;
+	color: #ff6;
+}
+.comments{
+	font-size: 25px;
+}
+#home:hover{
+	background-color: white;
+	color: black;
+	border-color: #ff6e00;
+
+}
+#home:active{
+	-webkit-transform:scale(1.02);
+}
+.divider{
+	border-top: 2px solid white;
+}
+#header{padding: 20px;
+background: rgb(255,128,0);
+border-bottom: 3px solid white;
+}
+#logo{
+	font-size: 25px;
+	margin-left: 20px;
+	color: white;
+}
+.testing{
+	text-align: center;
+	line-height: 30px;
+
+	
+}
+.v-divider{
+	
+	border-right: 2px solid white;
+}
+#first-links{
+	border: 2px inset white;
+}
+.list-group-item{
+	border: 2px solid #ff6e00;
+	background: transparent;
+	margin: 2px;
+	font-weight: bolder;
+}
+a.list-group-item {
+color: white;
+}
+a.list-group-item:active{
+	background: #ff6a10;
+}
+
+
+.jumbotron{
+	background: transparent;
+	border: 3px inset #ff6e00;
+}
+#who-are-we{text-align: center;}
+ul{
+	list-style-type: none;
+}
+@media (max-width: 768px){
+       body{
+       	margin-left:10px;
+       }
+    }

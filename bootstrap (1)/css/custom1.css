@@ -1,0 +1,181 @@
+.nav{
+	font-weight: bold;
+	
+
+}
+.page-header{
+	text-align: center;
+	padding: 40px;
+	font-family: Papyrus;
+	border: 0px;
+
+	
+}
+#scroller{
+	position: fixed;
+	top: 500px;
+	right: 20px;
+	opacity: .7;
+	background-color: transparent;
+
+	
+
+}
+@-webkit-keyframes rot{
+	0{
+		-webkit-transform:rotate(0deg);
+	}
+	50%{
+		-webkit-transform:rotate(180deg);
+	}
+	100%{
+		-webkit-transform:rotate(360deg);
+	}
+}
+#scroller:active{
+	-webkit-animation: rot 3s infinite linear ;
+}
+#head{
+
+font-family: Papyrus;Tempus Sans ITC;
+font-weight: bold;
+color: rgb(255,110,0);
+font-size: 110px;
+text-shadow:15px 20px 25px gray;
+
+    -moz-animation:bmov 25s infinite; 
+   -webkit-animation:bmov 25s infinite; 
+
+
+}
+#scroller:hover{
+	opacity: 1;
+	
+}
+.modal-body{
+	width: 60%;
+}
+#top{
+	width: 100%;
+	height: 100px;
+}
+body{
+	padding: 10px;
+}
+
+ul.nav-tabs.affix{
+        top: 0px; 
+        
+    }
+.panel{
+	background-color: transparent;
+
+
+}
+
+
+#h_about{
+	text-align: center;
+	font-weight: bold;
+	color: rgb(255,110,0);
+	
+
+}
+.navbar-default{
+	background: transparent;
+	border:0px solid rgb(255,110,0);
+	
+}
+.navbar-default:hover{
+	
+
+}#contact{
+
+	color: rgb(255,110,0);
+	font-weight: bold;
+}
+ul.nav-tabs{
+        width: 240px;
+        margin-top: 20px;
+        border-radius: 4px;
+        border: 1px solid rgb(255,110,0);
+        }
+ul.nav-tabs li{
+         margin: 0;
+        border-top: 1px solid rgb(255,110,0);
+    }
+ul.nav-tabs li:first-child{
+        border-top: none;
+    }
+ul.nav-tabs li a{
+        margin: 0;
+        padding: 8px 16px;
+        border-radius: 0;
+    }
+ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+        color: #fff;
+        background: rgb(255,110,0);
+        border: 1px solid rgb(255,110,0);
+    }
+ul.nav-tabs li:first-child a{
+        border-radius: 4px 4px 0 0;
+    }
+ul.nav-tabs li:last-child a{
+        border-radius: 0 0 4px 4px;
+    }
+footer{
+	background-color: black;
+	
+	height: 250px;
+	
+}
+
+@-webkit-keyframes bmov{
+           
+
+15%   { color:rgb(128,0,0); }
+50% {color: black; }
+75%{color: gray;}
+100% {color:rgb(255,110,0); 
+}}
+@-moz-keyframes bmov{
+
+15%   { color:rgb(128,0,0); }
+50% {color: black; }
+
+100% {color:rgb(255,110,0);
+           
+}}
+#cloud{position: fixed;
+
+	top: 20px;
+
+	-webkit-animation:mymove 60s infinite;
+
+}
+
+@-webkit-keyframes hat 
+{
+0{
+	-webkit-transform:rotate(0deg);
+}
+100%{
+	-webkit-transform:rotate(20deg);
+}
+
+}
+
+@-webkit-keyframes mymove 
+{
+from {right:-623px;}
+to {right:1320px; }
+}
+#hat{opacity: .7;
+	position: absolute;
+	top:5%;
+	left: 24%;
+	-webkit-transform:rotate(10deg);
+	-webkit-animation:hat 3s linear 4s infinite alternate;
+}
+
+

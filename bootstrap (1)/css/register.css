@@ -1,0 +1,16 @@
+navbar-header{
+	text-align: center;
+}
+.form-control{
+font-weight: bold;
+}
+input{
+	text-align: center;
+}
+.dropdown-menu{
+	max-height: 200px;
+	max-width: 200px;
+		overflow-y: auto;
+		/* prevent horizontal scrollbar */
+		overflow-x: hidden;
+}

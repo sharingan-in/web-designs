@@ -1,0 +1,94 @@
+body{
+	background: #222;
+	padding: 25px;
+}
+
+.metro{
+	background: transparent;
+	
+	height: 150px;
+	padding: 15px;
+	margin-top: 10px;
+}
+.ele1{
+	background: #4a2390;
+	height: 100px;
+	margin-right: 20px;
+	cursor: pointer;
+	-webkit-transition:.5s background;
+	-webkit-animation: mymove1 2.75s;
+	-webkit-animation:mymove_vis 2.5s;
+}
+.ele1:hover{
+	border:1px solid #4a2390;
+	background: transparent;
+
+
+}
+.ele2{
+	background: limegreen;
+	height: 100px;
+	-webkit-transition:.5s background;
+	margin-right: 20px;
+	cursor: pointer;
+	-webkit-animation: mymove4 2.75s;
+}
+
+.ele2:hover{
+	border:1px solid limegreen;
+	background: transparent;	
+
+}
+.ele3{
+	background: #9fff91;
+	height: 100px;	
+	cursor: pointer;
+	margin-right: 20px;
+	-webkit-transition:.5s background;
+	-webkit-animation: mymove2 2.75s ;
+	
+}
+
+.ele3:hover{
+	border:1px solid #9fff91;
+	background: transparent;
+
+}
+.ele5{
+	background: #145;
+	height: 100px;
+	cursor: pointer;
+	margin-right: 20px;
+	-webkit-transition:.5s background;
+	-webkit-animation: mymove3 2.75s ;
+}
+
+.ele5:hover{
+	border:1px solid #145;
+	background: transparent;
+
+}
+@-webkit-keyframes mymove_vis {
+    from {display: none; }
+    to {display: block;}
+} 
+
+@-webkit-keyframes mymove1 {
+    from {top: -500px; }
+    to {top: 0px;}
+} 
+@-webkit-keyframes mymove2 {
+    from {left: -700px;width: 700px;}
+    to {left: 0px;}
+} 
+@-webkit-keyframes mymove3 {
+    from {right: -900px;width: 100px;}
+    to {right: 0px;}
+} 
+@-webkit-keyframes mymove4 {
+    from {bottom: -600px; width: 100px;}
+    to {bottom: 0px;}
+} 
+.star{
+	color: white;
+}

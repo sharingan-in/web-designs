@@ -4,19 +4,15 @@ function colors() {
 	var u=document.getElementsByClassName('ele2');
 	var v=document.getElementsByClassName('ele3');
 	var w=document.getElementsByClassName('ele5');
-
-	var value = Math.floor((Math.random() * 4) + 1);
-	val1=value;
+while(1){
+	var value = Math.floor((Math.random() * 4) +1 );
+	
+	if(localStorage.getItem("value")!=value){
+	localStorage.setItem("value", value);
+	break;
 	//var last =setcookie("last",value);
-			for(var i=0; i<u.length; i++) { 
-  			u[i].style.background="#4a2390";
-			}
-			for(var i=0; i<v.length; i++) { 
-  			v[i].style.background="#4a2390";
-			}
-			for(var i=0; i<w.length; i++) { 
-  			w[i].style.background="#4a2390";
-			}
+	}		
+}
 
 		switch(value) {
 			case 1 :
@@ -49,7 +45,7 @@ function colors() {
 			break;
 			case 3 :
 			for(var i=0; i<t.length; i++) { 
-  			t[i].style.background="#9fff91";
+  			t[i].style.background="red";
 			}
 			for(var i=0; i<u.length; i++) { 
   			u[i].style.background="limegreen";
@@ -60,9 +56,10 @@ function colors() {
 			for(var i=0; i<w.length; i++) { 
   			w[i].style.background="#145";
 			}
-			default :
+			break;
+			case 4 :
 			for(var i=0; i<t.length; i++) { 
-  			t[i].style.background="#145";
+  			t[i].style.background="yellow";
 			}
 			for(var i=0; i<u.length; i++) { 
   			u[i].style.background="limegreen";
@@ -73,7 +70,7 @@ function colors() {
 			for(var i=0; i<w.length; i++) { 
   			w[i].style.background="#4a2390";
 			}
-		
+		break;
 
 
 	}

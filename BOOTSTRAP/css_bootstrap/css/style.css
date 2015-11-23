@@ -11,7 +11,7 @@ body{
 	margin-top: 10px;
 }
 .ele1{
-	background: #4a2390;
+	 /*background: #4a2390;*/
 	height: 100px;
 	margin-right: 20px;
 	cursor: pointer;
@@ -75,7 +75,7 @@ body{
 } 
 
 @-webkit-keyframes mymove1 {
-    from {-webkit-transform:scale(10); }
+    from {-webkit-transform:scale(15); }
     to {-webkit-transform:scale(1);}
 } 
 @-webkit-keyframes mymove2 {

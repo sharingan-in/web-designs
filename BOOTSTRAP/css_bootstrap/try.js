@@ -1,3 +1,7 @@
+/* ***this code is developed and designed by Shubham Singh 
+	GITHUB : https://github.com/SamWinchester
+*/
+
 function colors() {
 	var val1,val2,val3,val4;
 	var t=document.getElementsByClassName('ele1');

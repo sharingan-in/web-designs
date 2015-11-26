@@ -1,3 +1,7 @@
+/* this code is developed and designed by Shubham Singh 
+	GITHUB : https://github.com/SamWinchester
+*/
+
 body{
 	background: #222;
 	padding: 25px;
@@ -45,7 +49,7 @@ body{
 	height: 100px;	
 	cursor: pointer;
 	margin-right: 20px;
-	-webkit-transition:.5s background;
+	-webkit-transition:.55s background;
 	-webkit-animation: mymove2 3.75s ;
 	
 }

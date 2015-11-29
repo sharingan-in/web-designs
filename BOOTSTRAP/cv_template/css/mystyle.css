@@ -1,12 +1,89 @@
-
+body{background: #222;}
 .navbar-default {
     border-color: transparent;
     background-color: #222;
+    font-family: 'Shadows Into Light', cursive;
 }
+#per-info{
+    margin: 30px;
+    height: 500px;
+}
+.name{
+    color: #fff;   
+   font-family: 'Shadows Into Light', cursive;
+    width: auto;
+    height: auto;
+   text-align: center;
+   padding: 5px; 
+     font-variant: small-caps;
+}
+.progress-bar-black
+{
+    background: #bdc3c7;
+    font-size: 20px;
+    
+    color: black;
+    font-weight: bold;
+}
+.progress{
+    width: 60%;
+    text-align: center;
+    background: transparent;
+    border: 1px solid white;
+    height: 40px;
+    border-radius: 20px;
+}
+#lang{
+     color: #fff;   
+   font-family: 'Shadows Into Light', cursive;
+    width: auto;
+    height: auto;
+   text-align: center;
+   padding: 5px; 
+     font-variant: small-caps;
+}
+.email{
+     color: #fff;   
+   font-family: 'Shadows Into Light', cursive;
+    width: auto;
+    height: auto;
+   text-align: center;
+   padding: 5px;
+  
 
+}
+.birthday{
+    color: #fff;   
+   font-family: 'Shadows Into Light', cursive;
+    width: auto;
+    height: auto;
+   text-align: center;
+   padding: 5px;
+  
+}
+.lang{
+
+}
+.location{
+     color: #fff;   
+   font-family: 'Shadows Into Light', cursive;
+    width: auto;
+    height: auto;
+   text-align: center;
+   padding: 5px;
+}
+span{
+    font-weight: bold;
+    
+}
+.email{
+    color: #ffd;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+     color: #fed136;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -36,7 +113,6 @@
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;

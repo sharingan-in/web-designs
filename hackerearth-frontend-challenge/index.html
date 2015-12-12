@@ -1,0 +1,26 @@
+  <!DOCTYPE html>
+  <html lang="en-US">
+  <title>Customers</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="http://www.w3schools.com/appml/2.0.2/appml.js"></script>
+  <script type="text/javascript">
+  
+  </script>
+  <style type="text/css">
+  </style>
+  <body>
+   <div id="wrapper" appml-data="http://hackerearth.0x10.info/api/problems?type=json&query=list_problems">
+   
+    <div id="coat"  appml-repeat="problems" onload="valid()">
+      <a href="{{url}}" ><img id="1" src="{{image}}"width="200" height="200" alt="HTML5 Icon" ></a>
+       <p id="text-img">Name of The Challenge :<span>{{name}}</span><br>This challenge was in &nbsp;&nbsp;<span>{{parent_challenge}}</span> challenge</p><br>
+      <p  id="tags">{{tags}}</p>
+      <p>The rating for the problem is {{rating}} out of 5 stars</p>
+      <p>This problem is solved by {{solved_by}} hackers</p>
+      <button onclick="clickCounter()" >total likes : </button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  </body>
+  </html>
